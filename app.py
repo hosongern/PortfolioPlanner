@@ -29,8 +29,9 @@ with st.form("policy_entry_form"):
         remark = st.text_input("Remark")
 
     with col4:
-    death = st.number_input("Death (Editable, Blue)", value=0.0)
-    major_ci = st.number_input("Major CI (Editable, Orange)", value=0.0)
-    early_ci = st.number_input("Early CI (Editable, Purple)", value=0.0)
-    cash_value = st.number_input("Cash Value (Editable, Green)", value=0.0)
+        death = st.number_input("Death (Editable, Blue)", value=0.0)
+        major_ci = st.number_input("Major CI (Editable, Orange)", value=0.0)
+        early_ci = st.number_input("Early CI (Editable, Purple)", value=0.0)
+        cash_value = st.number_input("Cash Value (Editable, Green)", value=0.0)
+
 
